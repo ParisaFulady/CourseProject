@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CourseProject.Domain.Contracts\CourseProject.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\CourseProject.Domain.Entities\CourseProject.Domain.Entities.csproj" />
+    <ProjectReference Include="..\CourseProject.InfraStructures.EF\CourseProject.InfraStructures.EF.csproj" />
+  </ItemGroup>
+
+</Project>

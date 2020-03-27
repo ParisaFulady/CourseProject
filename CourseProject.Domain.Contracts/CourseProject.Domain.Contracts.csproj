@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Courses\" />
+    <Folder Include="Instructors\" />
+    <Folder Include="Students\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CourseProject.Domain.Entities\CourseProject.Domain.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
