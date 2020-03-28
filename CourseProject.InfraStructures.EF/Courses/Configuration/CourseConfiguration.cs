@@ -13,6 +13,7 @@ namespace CourseProject.InfraStructures.EF.Courses.Configuration
         {
             builder.ToTable("tblCourse");
             builder.Property(c => c.Title).HasMaxLength(200).IsRequired();
+            builder.Property(c => c.ImageUrl).HasMaxLength(200).IsRequired();
 
         }
     }

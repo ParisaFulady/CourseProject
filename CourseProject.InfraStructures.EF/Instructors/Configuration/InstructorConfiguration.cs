@@ -14,6 +14,8 @@ namespace CourseProject.InfraStructures.EF.Instructors.Configuration
             builder.ToTable("tblInstructor");
             builder.Property(c => c.FirstName).HasMaxLength(100);
             builder.Property(c => c.LastName).HasMaxLength(100).IsRequired();
+            builder.Property(c => c.ImageUrl).HasMaxLength(100);
+            builder.Property(c => c.Description).HasMaxLength(100);
 
         }
     }

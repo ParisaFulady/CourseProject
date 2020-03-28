@@ -4,14 +4,16 @@ using CourseProject.InfraStructures.EF;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 
 namespace CourseProject.InfraStructures.EF.Migrations
 {
     [DbContext(typeof(CourseDBContext))]
-    partial class CourseDBContextModelSnapshot : ModelSnapshot
+    [Migration("20200328010355_Addimage")]
+    partial class Addimage
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
